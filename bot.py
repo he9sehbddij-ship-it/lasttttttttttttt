@@ -13,7 +13,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = os.getenv("8886101035:AAHtkWYmrhsFGkqpaHqIwciInBZkIKVebeA")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or "8886101035:AAHtkWYmrhsFGkqpaHqIwciInBZkIKVebeA"
 
 user_photos_store = {}
 user_pdf_store = {}
